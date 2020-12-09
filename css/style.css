@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Lato', sans-serif;
+}
+
+/* COMMON */
+
+.container-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.row-reverse {
+  flex-flow: row-reverse;
+}
+
+.center-items {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.center-text {
+  text-align: center;
+}
+
+/* COLOURS */
+
+.black-text {
+  color:black;
+}
+
+.white-text {
+  color:#eae8e6;
+}
+
+.grey-text {
+  color:#505050;
+}
+
+.lightgrey-text {
+  color: #b0b0b0;
+}
+
+.accent-colour {
+  color: #ae8652;
+}
+
+/* TYPOGRAPHY */
+
+.font-w-600 {
+  font-weight: 600;
+}
+
+.font-w-700 {
+  font-weight: 700;
+}
+
+.font-w-800 {
+  font-weight: 800;
+}
+
+.decoration-none {
+  text-decoration: none;
+}
+
+/* CTA BUTTON */
+.cta-btn {
+  background-color: transparent;
+  border: 2px solid #ae8652;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 35px;
+}
+
+.cta-btn:hover {
+  color: #8e683b;
+  border: 2px solid #8e683b;
+  transition: color 0.3s, border 0.3s;
+}
+
+/* NAVBAR TOP */
+
+header {
+  background-image: url("../img/avadabarbers-hero-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#navbar-top {
+  width:70%;
+  max-width: 1150px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+#navbar-top img {
+  width: 170px;
+}
+
+#navbar-top i:hover {
+  color:#ae8652;
+  transition: color 0.5s;
+}
+
+.navbar-icons :first-child > i {
+  font-size: 1.2rem;
+  transform: scaleX(1.1);
+  
+}
+
+.navbar-icons :last-child > i {
+  font-size: 1.4rem;
+  transform: scaleX(1.3);
+  margin:0 5px 0 20px;
+}
+
+.widgets-container {
+  width: 100%;
+  position: absolute;
+}
+
+.widget {
+  width: 45px;
+  height: 45px;
+  background-color: #FFF;
+  border-radius:5px;
+  margin-right: 8px;
+  margin-bottom: 3px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.widget span {
+  font-size: 0.6rem;
+}
+
+.widget i {
+  font-size: 1rem;
+}
+
+.widget h4 {
+  margin-bottom: 5px;
+  color: #66ba7e;
+}
+
+#hero {
+  width: 70%;
+  max-width: 1150px;
+  margin: auto;
+  /* background-color: coral; */
+}
+
+.hero-text {
+  width: 100%;
+}
+
+.hero-text > * {
+  margin-bottom: 30px;
+}
+
+.hero-text h1 {
+  font-size: 5rem;
+  font-family: "Abril Fatface";
+}
+
+.hero-mirror-image img {
+  width:100%;
+}
+
+.line {
+  height: 3px;
+  width: 35%;
+  background-color: #ae8652;
+}
+
+#hero p {
+  font-family: "Lato";
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+
+
