@@ -45,6 +45,10 @@ body {
   justify-content: space-between;
 }
 
+.justify-even {
+  justify-content: space-evenly;
+}
+
 .center-text {
   text-align: center;
 }
@@ -68,7 +72,7 @@ body {
 }
 
 .accent-colour {
-  color: #ae8652;
+  color:#be9359;
 }
 
 /* TYPOGRAPHY */
@@ -230,13 +234,13 @@ header {
   margin: auto;
 }
 
-.award-text h4 {
+.award-text h4, #services h4 {
   font-size: 1.1rem;
   font-weight: 900;
   
 }
 
-.award-text h1 {
+.award-text h1, #services h1 {
   font-family: "Abril Fatface";
   font-size: 4rem;
 }
@@ -250,9 +254,67 @@ header {
   bottom: 0;
 }
 
+/* SERVICES SECTION */
+
 #services {
   height: 600px;
   background-color: #FFF;
+  padding: 40px 0 80px 0;
+}
+
+.services-container {
+  width: 60%;
+  height: 400px;
+  margin: 50px auto 10px auto;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  width: 330px;
+  /* max-width: 330px; */
+  margin: 0 40px;
+  padding: 10px;
+}
+
+.service-card > * {
+  margin-bottom: 35px;
+}
+
+/* .service-card img {
+  width: 65px;
+} */
+
+.card-image {
+  height: 120px;
+}
+
+.card-image img {
+  height: 100%;
+}
+
+.service-card:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* .service-card img[src="img/avadabarbers-wash.png"] {
+  width:85px;
+} */
+
+#services .cta-btn {
+  margin-bottom: 60px;
+}
+
+.service-card a {
+  font-family: "Abril Fatface";
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+
+.service-card p {
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 
 
