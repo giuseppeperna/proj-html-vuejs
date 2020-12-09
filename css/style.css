@@ -9,6 +9,7 @@ body {
   font-family: 'Abril Fatface', cursive;
   font-family: 'Lato', sans-serif;
   letter-spacing: 2px;
+  /* min-width: 1480px; */
 }
 
 /* COMMON */
@@ -153,6 +154,7 @@ header {
 .widgets-container {
   width: 100%;
   position: fixed;
+  z-index: 1;
 }
 
 .widget {
@@ -234,13 +236,13 @@ header {
   margin: auto;
 }
 
-.award-text h4, #services h4 {
-  font-size: 1.1rem;
+.award-text h4, #services h4, #products h4 {
+  font-size: 1rem;
   font-weight: 900;
   
 }
 
-.award-text h1, #services h1 {
+.award-text h1, #services h1, #products h1 {
   font-family: "Abril Fatface";
   font-size: 4rem;
 }
@@ -257,21 +259,18 @@ header {
 /* SERVICES SECTION */
 
 #services {
-  height: 600px;
   background-color: #FFF;
   padding: 40px 0 80px 0;
+  position: relative;
 }
 
 .services-container {
   width: 60%;
-  height: 400px;
-  margin: 50px auto 10px auto;
-  flex-wrap: wrap;
+  margin: 70px auto 10px auto;
 }
 
 .service-card {
   width: 330px;
-  /* max-width: 330px; */
   margin: 0 40px;
   padding: 10px;
 }
@@ -279,10 +278,6 @@ header {
 .service-card > * {
   margin-bottom: 35px;
 }
-
-/* .service-card img {
-  width: 65px;
-} */
 
 .card-image {
   height: 120px;
@@ -298,10 +293,6 @@ header {
     clear: both;
 }
 
-/* .service-card img[src="img/avadabarbers-wash.png"] {
-  width:85px;
-} */
-
 #services .cta-btn {
   margin-bottom: 60px;
 }
@@ -309,10 +300,63 @@ header {
 .service-card a {
   font-family: "Abril Fatface";
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 .service-card p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.spacer-bottom {
+  height: 150px;
+  width: 100%;
+  clip-path: polygon(100% 100%, 100% 0, 0% 0%, 0 100%, 50% 0%);
+  background-color :#FFF;
+  position: absolute;
+  top: 0;
+}
+
+/* PRODUCTS SECTION */
+
+#products {
+  position: relative;
+  height: 1200px;
+  background-image: url("../img/avadabarbers-products-bg.jpg");
+  background-position: center-top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 0 100px 0;
+}
+
+.products-container {
+  width: 80%;
+  margin: 50px auto;
+  flex-wrap: wrap;
+}
+
+.products-card {
+  width: calc(100% / 4);
+}
+
+.products-card:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.products-card-image img {
+  width: 100%;
+}
+
+.products-card a {
+  font-family: "Abril Fatface";
+  text-decoration: none;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.products-card p {
   font-size: 1.1rem;
   line-height: 1.6;
 }
