@@ -113,6 +113,8 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 20px 0;
+  height: 100vh;
 }
 
 #navbar-top {
@@ -208,6 +210,5 @@ header {
   font-weight: 400;
   margin-bottom: 50px;
 }
-
 
 
