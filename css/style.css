@@ -8,6 +8,7 @@ body {
   font-size: 15px;
   font-family: 'Abril Fatface', cursive;
   font-family: 'Lato', sans-serif;
+  letter-spacing: 2px;
 }
 
 /* COMMON */
@@ -147,12 +148,12 @@ header {
 
 .widgets-container {
   width: 100%;
-  position: absolute;
+  position: fixed;
 }
 
 .widget {
-  width: 45px;
-  height: 45px;
+  width: 60px;
+  height: 60px;
   background-color: #FFF;
   border-radius:5px;
   margin-right: 8px;
@@ -163,6 +164,7 @@ header {
 
 .widget span {
   font-size: 0.6rem;
+  letter-spacing: 0;
 }
 
 .widget i {
@@ -173,6 +175,8 @@ header {
   margin-bottom: 5px;
   color: #66ba7e;
 }
+
+/* HERO */
 
 #hero {
   width: 70%;
@@ -209,6 +213,46 @@ header {
   font-size: 24px;
   font-weight: 400;
   margin-bottom: 50px;
+}
+
+/* AWARD SECTION */
+
+#award {
+  background-image: url("../img/avadabarbers-award-bg.jpg");
+  background-position: center-top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 165px 0 250px 0;
+  position: relative;
+}
+
+.award-text {
+  margin: auto;
+}
+
+.award-text h4 {
+  font-size: 1.1rem;
+  font-weight: 900;
+  
+}
+
+.award-text h1 {
+  font-family: "Abril Fatface";
+  font-size: 4rem;
+}
+
+.spacer-top {
+  height: 100px;
+  width: 100%;
+  clip-path:polygon(50% 0%, 0% 100%, 100% 100%); 
+  background-color :#FFF;
+  position: absolute;
+  bottom: 0;
+}
+
+#services {
+  height: 600px;
+  background-color: #FFF;
 }
 
 
