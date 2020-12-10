@@ -322,7 +322,7 @@ header {
 #products {
   position: relative;
   background-image: url("../img/avadabarbers-products-bg.jpg");
-  background-position: center-top;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 200px 0 100px 0;
@@ -361,7 +361,6 @@ header {
 }
 
 .featured-product {
-  width: 100%;
   position: relative;
   bottom: 40px;
 }
@@ -407,19 +406,12 @@ header {
 }
 
 .reviews-container {
-  width: 60%;
-  margin: 70px auto 10px auto;
-}
-
-.review-container:after {
-  content: "";
-  display: table;
-  clear: both;
+  margin: 40px auto 10px auto;
 }
 
 .review {
   width: 330px;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
   line-height: 1.8;
   font-size: 18px;
@@ -440,5 +432,67 @@ header {
   font-weight: 700;
 }
 
+.review p {
+  font-size: 1rem;
+}
+
+/* BLOG SECTION */
+
+#blog {
+  background-color: #f5f5f5;
+  position: relative;
+  padding: 300px 0 140px 0;
+}
+
+.spacer-blog {
+  height: 150px;
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 50% 100%, 0 50%);
+  background-color :#FFF;
+  position: absolute;
+  top: 0;
+}
+
+.blog-posts-container {
+  margin: 50px auto;
+}
+
+.post {
+  width: 300px;
+  margin: 12px;
+  text-align: center;
+  line-height: 1.8;
+  font-size: 18px;
+  min-width: 400px;
+}
+
+.post img {
+  width: 100%;
+}
+
+.post h4 {
+  font-family:'Abril Fatface';
+  font-size: 2rem;
+}
+
+.post p {
+  font-size: 1rem;
+}
+
+/* FOOTER  */
+
+/* Contacts & Socials */
+
+#contacts-socials {
+  background-color: #121314;
+  height: 450px;
+}
+
+/* Copyright */
+
+#copyright {
+  background-color: #161718;
+  height: 100px;
+}
 
 
