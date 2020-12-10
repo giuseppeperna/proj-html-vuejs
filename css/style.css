@@ -96,17 +96,18 @@ body {
 /* CTA BUTTON */
 .cta-btn {
   background-color: transparent;
-  border: 2px solid #ae8652;
+  border: 2px solid#be9359;
   text-transform: uppercase;
   text-decoration: none;
   padding: 15px 30px;
   font-size: 1.2rem;
   font-weight: 600;
   margin-top: 20px;
+  transition: color 0.5s ease, border 0.3s;
 }
 
 .cta-btn:hover {
-  color: #8e683b;
+  color:#906933;
   border: 2px solid #8e683b;
   transition: color 0.3s, border 0.3s;
 }
@@ -145,6 +146,10 @@ header {
   width: 170px;
 }
 
+#navbar-top i {
+  transition: color 0.5s ease;
+}
+
 #navbar-top i:hover {
   color:#ae8652;
   transition: color 0.5s;
@@ -163,9 +168,9 @@ header {
 }
 
 .widgets-container {
-  width: 100%;
   position: fixed;
   z-index: 1;
+  right:0;
 }
 
 .widget {
@@ -214,7 +219,6 @@ header {
   width: 70%;
   max-width: 1150px;
   margin: auto;
-  /* background-color: coral; */
 }
 
 .hero-text {
@@ -222,12 +226,16 @@ header {
 }
 
 .hero-text > * {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .hero-text h1 {
   font-size: 5rem;
   font-family: "Abril Fatface";
+}
+
+.hero-mirror-image {
+  width: 80%;
 }
 
 .hero-mirror-image img {
@@ -527,6 +535,7 @@ header {
 .contacts-card i {
   margin: 40px 5px;
   font-size: 1rem;
+  transition: color 0.5s ease;
 }
 
 .contacts-card i:hover {
@@ -554,6 +563,10 @@ header {
   display: inline-block;
   letter-spacing: 0;
   font-size: 1rem;
+}
+
+#copyright a {
+  transition: color 0.5s ease;
 }
 
 #copyright a:hover {
