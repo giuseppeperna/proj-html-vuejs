@@ -375,8 +375,9 @@ header {
   width: 40%;
   height: 427px;
   float: left;
-  background-image: url("../img/avadabarbers-blog.jpg");
+  background-image: url("../img/avadabarbers-blog-1.jpg");
   background-size: cover;
+  background-position: top;
   background-repeat: no-repeat;
   filter: grayscale(100%);
 }
@@ -402,7 +403,7 @@ header {
 
 #reviews {
   background-color: #FFF;
-  padding: 120px 0;
+  padding: 120px 0 40px 0;
 }
 
 .reviews-container {
@@ -470,9 +471,10 @@ header {
   width: 100%;
 }
 
-.post h4 {
+.post a {
   font-family:'Abril Fatface';
   font-size: 2rem;
+  text-decoration: none;
 }
 
 .post p {
