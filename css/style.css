@@ -526,6 +526,7 @@ header {
 
 .contacts-card i {
   margin: 40px 5px;
+  font-size: 1rem;
 }
 
 .contacts-card i:hover {
@@ -535,7 +536,7 @@ header {
 
 .contacts-card p {
   margin: 5px 0 55px 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
   letter-spacing: 0;
   line-height: 1.4;
 }
@@ -565,6 +566,7 @@ header {
   background-color: #474747;
   opacity: 0.9;
   position: fixed;
+  z-index: 1;
   right: 60px;
   bottom: 0;
   border-top-left-radius: 3px;
