@@ -5,7 +5,7 @@
  */
 
 const date = new Date();
-let currentYear = date.getFullYear();
+const currentYear = date.getFullYear();
 
  //Init Vue Object
  const barberShop = new Vue({
@@ -140,6 +140,14 @@ let currentYear = date.getFullYear();
         ],   
      },
      mounted() {
+         window.addEventListener("scroll",function(){
+             let target = document.getElementById('scroll');
+             if(window.pageYOffset > 400){
+                 target.classList.add("scroll-hidden");
+             }else{
+                 target.classList.remove("scroll-hidden");
+             }
+         })
      },
      methods: {
          scrollTop() {

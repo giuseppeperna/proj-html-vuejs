@@ -24,7 +24,6 @@
     <!-- VUE APP SECTION -->
     <div id="barberShop">
       <header>
-
         <!-- TOP NAVBAR -->
         <nav id="navbar-top" class="container-flex flex-row center-items justify-space-between">
           <div>
@@ -55,7 +54,7 @@
         <section id="hero" class="container-flex flex-row center-items justify-space-between">
           <div class="hero-text container-flex flex-column">
             <h1 class="white-text">Barber Shop</h1>
-            <div class="line"></div>
+            <div class="title-underline"></div>
             <p class="grey-text">The Pinnacle of Male Grooming</p>
             <div>
               <a href="javascript:void(0)" class="cta-btn accent-colour">{{ctaBtn.hero}}</a>
@@ -67,8 +66,7 @@
         </section>
       </header>
   
-      <main>
-  
+      <main> 
         <!-- AWARD SECTION -->
         <section id="award">
           <div class="award-text container-flex flex-column center-items">
@@ -90,7 +88,7 @@
               <div class="card-image">
                 <a href="javascript:void(0)"><img v-bind:src="'img/' + card.image" v-bind:alt="card.alt"></a>
               </div>
-              <a href="javascript:void(0)"class="accent-colour">{{card.title}}</a>
+              <a href="javascript:void(0)" class="accent-colour">{{card.title}}</a>
               <p class="center-text grey-text">{{card.text}}</p>
             </div>
           </div>
@@ -100,8 +98,7 @@
         </section>
         
         <!-- PRODUCTS SECTION -->
-        <section id="products">
-  
+        <section id="products"> 
           <!-- TRIANGLE SPACER -->
           <div class="spacer-bottom"></div>
   
@@ -150,12 +147,12 @@
             </div>
           </div>
         </section>
-  
+        
+        <!-- BLOG SECTION -->
         <section id="blog">
-  
           <!-- TRIANGLE SPACER -->
           <div class="spacer-blog"></div>
-  
+          
           <h4 class="subtitle-section accent-colour center-text">TALES FROM THE BARBER SHOP</h4>
           <h1 class="title-section lightgrey-text center-text">Recent Blog Posts</h1>
   
