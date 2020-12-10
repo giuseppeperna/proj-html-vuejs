@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <!-- FAVICON -->
-    <link rel="shortcut icon" href="img/netflix-logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/brush.png" type="image/x-icon">
 
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@100;300;700;900&display=swap" rel="stylesheet"> 
@@ -37,11 +37,13 @@
       <div class="widgets-container container-flex flex-row center-items row-reverse">
         <div class="container-flex flex-column center-items">
           <div class="widget center-text container-flex flex-column center-items justify-space-between">
-            <i class="fas fa-square"></i>
+            <img src="img/widget-demos.png" alt="demos">
             <span>Demos</span>
           </div>
           <div class="widget container-flex flex-column center-items justify-space-between">
-            <h4>$39</h4>
+            <div class="on-sale">
+              <span>$</span><h4>39</h4>
+            </div>
             <span>On Sale</span>
           </div>
         </div>
@@ -153,6 +155,7 @@
         </div>
       </section>
 
+      <!-- Featured product card -->
       <div class="featured-product container-flex flex-row center-items justify-center">
         <div class="card">
           <div class="left-image container-flex flex-row center-items justify-center">
@@ -234,13 +237,11 @@
     </main>
 
     <footer>
-
       <!-- BOTTOM NAVBAR -->
       <nav id="navbar-bottom">
 
         <!-- CONTACTS -->
-        <section id="contacts-socials">
-          
+        <section id="contacts-socials">         
           <div class="contacts-container container-flex flex-row center-items justify-center">
             <div class="contacts-card center-text container-flex flex-column justify-center">
               <div>
@@ -273,11 +274,10 @@
                 <a href="#" class="cta-btn accent-colour">book your appointment</a>
               </div> 
             </div>
-
           </div>
-
         </section>
 
+        <!-- COPYRIGHT SECTION -->
         <section id="copyright">
           <div class="center-text container-flex flex-row justify-center grey-text">
             <ul>
@@ -287,8 +287,10 @@
               <li>| Powered by <a href="#" class="grey-text decoration-none">Wordpress</a></li>
             </ul>
           </div>
-
         </section>
+        <div class="scroll-top">
+          <i class="fas fa-chevron-up white-text"></i>
+        </div>
 
       </nav>
     </footer>

@@ -9,7 +9,6 @@ body {
   font-family: 'Abril Fatface', cursive;
   font-family: 'Lato', sans-serif;
   letter-spacing: 2px;
-  /* min-width: 1480px; */
 }
 
 /* COMMON */
@@ -173,25 +172,40 @@ header {
   width: 60px;
   height: 60px;
   background-color: #FFF;
-  border-radius:5px;
+  border-radius:7px;
   margin-right: 8px;
   margin-bottom: 3px;
   padding: 5px;
   cursor: pointer;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.1);
+}
+
+.widget:hover {
+  transform: scale(1.1);
 }
 
 .widget span {
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   letter-spacing: 0;
+  font-weight: 600;
 }
 
-.widget i {
-  font-size: 1rem;
-}
-
-.widget h4 {
+.on-sale h4 {
   margin-bottom: 5px;
   color: #66ba7e;
+  font-weight: 900;
+  font-size: 1.6rem;
+  letter-spacing: 0;
+  display: inline;
+}
+
+.on-sale span {
+  color: #66ba7e;
+  font-size: 0.8rem;
+  font-weight: 900;
+  vertical-align: top;
+  position: relative;
+  top: 2px;
 }
 
 /* HERO */
@@ -333,6 +347,7 @@ header {
 
 .products-card {
   width: calc(100% / 4);
+  min-width: 250px;
 }
 
 .products-card-image img {
@@ -493,7 +508,7 @@ header {
   width: calc(100% / 3);
   height: 100%;
   max-width: 390px;
-  min-width: 200px;
+  min-width: 365px;
 }
 
 .contacts-card img {
@@ -531,6 +546,7 @@ header {
 #copyright {
   background-color: #161718;
   padding: 60px 0;
+  position: relative;
 }
 
 #copyright li {
@@ -542,6 +558,18 @@ header {
 #copyright a:hover {
   color: #8e683b;
   transition: color 0.5s;
+}
+
+.scroll-top {
+  padding: 7px 15px;
+  background-color: #474747;
+  opacity: 0.9;
+  position: fixed;
+  right: 60px;
+  bottom: 0;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  cursor: pointer;
 }
 
 
