@@ -1,6 +1,6 @@
 <h1> Barber Shop </h1>
 
-<p> clone website template developed with: <p>
+<p> Clone website template developed with: <p>
 
 <ul>
 	<li>Html</li>
